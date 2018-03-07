@@ -1,42 +1,6 @@
 {
   "labelTypes" : [
     {
-      "type" : "ACF",
-      "color" : "00E7B9",
-      "labels" : [
-        {
-          "name" : "Add"
-        },
-        {
-          "name" : "Change"
-        }
-      ]
-    },
-    {
-      "type" : "Component",
-      "color" : "c5def5",
-      "labels" : [
-        {
-          "name" : "Add"
-        },
-        {
-          "name" : "Change"
-        }
-      ]
-    },
-    {
-      "type" : "Container",
-      "color" : "1d76db",
-      "labels" : [
-        {
-          "name" : "Add"
-        },
-        {
-          "name" : "Change"
-        }
-      ]
-    },
-    {
       "type" : "Configuration",
       "color" : "fbca04",
       "labels" : [
@@ -58,32 +22,14 @@
       ]
     },
     {
-      "type" : "Experience",
-      "color" : "FFC274",
-      "labels" : [
-        {
-          "name" : "Copy"
-        },
-        {
-          "name" : "Design"
-        },
-        {
-          "name" : "UX"
-        }
-      ]
-    },
-    {
       "type" : "Environment",
       "color" : "FAD8C7",
       "labels" : [
         {
-          "name" : "Staging"
-        },
-        {
           "name" : "Production"
         },
         {
-          "name" : "Quality Assurance"
+          "name" : "Development"
         }
       ]
     },
@@ -95,10 +41,7 @@
           "name" : "Discussion"
         },
         {
-          "name" : "RFC"
-        },
-        {
-          "name" : "question"
+          "name" : "Question"
         }
       ]
     },
@@ -110,19 +53,10 @@
           "name" : "Enhancement"
         },
         {
-          "name" : "Optimization"
-        }
-      ]
-    },
-    {
-      "type" : "Addition",
-      "color" : "91CA55",
-      "labels" : [
-        {
           "name" : "Feature"
         },
         {
-          "name" : "Change"
+          "name" : "Optimization"
         }
       ]
     },
@@ -153,6 +87,12 @@
         },
         {
           "name" : "Low priority"
+        },
+        {
+          "name" : "Medium priority"
+        },
+        {
+          "name" : "Critical piority"
         }
       ]
     },
@@ -165,6 +105,24 @@
         },
         {
           "name" : "Unit testing"
+        }
+      ]
+    }, 
+    {
+      "type" : "Pull Request", 
+      "color" : "00E7B9", 
+      "labels": [
+        {
+          "name" : "Provided"
+        }
+      ]
+    },
+    {
+      "type" : "Status", 
+      "color" : "d4c5f9", 
+      "labels": [
+        {
+          "name" : "Fixed"
         }
       ]
     }
